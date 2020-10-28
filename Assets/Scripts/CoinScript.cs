@@ -21,7 +21,7 @@ public class CoinScript : MonoBehaviour
         {
             Destroy(gameObject);
             levelManager.addCoins(coinValue);
-            AudioSource.PlayClipAtPoint(coinAudio, transform.position);
+            AudioSource.PlayClipAtPoint(coinAudio, collision.transform.position);
            
         }
        

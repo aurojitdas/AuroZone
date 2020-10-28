@@ -98,6 +98,9 @@
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\EnemyMovement.cs" />
     <Compile Include="Assets\Scripts\EnemyMovementVertical.cs" />
+    <Compile Include="Assets\Scripts\Boss\Boss_Idle.cs" />
+    <Compile Include="Assets\Scripts\Boss\Boss.cs" />
+    <Compile Include="Assets\Scripts\Boss\Boss_Run.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
